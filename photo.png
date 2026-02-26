@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="theme-toggle">Toggle</button>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container fade-in">
+            <div class="about-photo-container">
+                <img src="photo.png" alt="Christopher Soto Reyes" class="about-photo">
+            </div>
+            <p>
+                Hi, I'm Christopher Soto Reyes, a Computer Science student at California State University East Bay, graduating in December 2025. I have hands-on experience in building both GUI and CLI games using Java, C++, and Python. My passion for technology and problem-solving motivates me to continuously improve. I thrive in collaborative environments and am eager to contribute to innovative projects. I’m excited to apply my skills in software engineering to drive the future of tech.
+            </p>
+        </div>
+        <div class="about-block-container">
+            <div class="about-block card">
+                <img src="badge.png" alt="badge photo" class="block-badge">
+                <h3>Work Experience</h3>
+                <p><strong>Student Assistant</strong></p>
+                <ul>
+                    <li>Analysis of Algorithms</li>
+                </ul>
+                <p><strong>CS/Math Tutor</strong></p>
+                <ul>
+                    <li>Data Structures</li>
+                    <li>Calculus</li>
+                </ul>
+            </div>
+            <div class="about-block card">
+                <img src="cap.jpg" alt = "cap photo" class = "block-badge">
+                <h3>Education</h3>
+                <p><strong>BS Computer Science</strong> from California State University</p>
+                <p><strong>AS Computer Science</strong> from Chabot College</p>
+                <p><strong>AS Liberal Arts and Sciences: Science, Math and Technology</strong> from Chabot College</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Here’s a summary of my skills, experience, and education. Feel free to download my resume for more details.</p>
+        <a href="Christopher_SotoReyes_Resume_2025.pdf" target="_blank" class="resume-button">View Resume</a>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="boggle.png" alt="Boggle Game" class="project-image">
+                <h3>Boggle Game</h3>
+                <p>Built with C++, this project utilizes an optimized backtracking algorithm to efficiently traverse a letter grid, identifying all valid words from a dictionary for enhanced real-time word search performance.</p>
+                <a href="https://github.com/ChrisSR11/MyProjects/tree/main/BoogleProject" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="CardGame.png" alt="Card Game" class="project-image">
+                <h3>Card Game</h3>
+                <p>Built with Java in Android Studio, this project demonstrates professional implementation of UI animations, data persistence, and responsive design</p>
+                <a href="https://github.com/ChrisSR11/CardGame" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="HangmanImage.png" alt="Evil Hangman Game" class="project-image">
+                <h3>Evil Hangman Game</h3>
+                <p>Developed an advanced Hangman game variant designed to challenge players by dynamically altering the target word as the player guesses, built in C++, and creates a unique, "cheating" AI experience.</p>
+                <a href="https://github.com/ChrisSR11/MyProjects/tree/main/EvilHangman" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <section id="connect">
+        <h2>Connect With Me</h2>
+        <div class="social-links">
+            <a href="https://github.com/ChrisSR11" target="_blank" class="social-button github">GitHub</a>
+            <a href="https://instagram.com/chrissr.11" target="_blank" class="social-button instagram">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Christopher Soto Reyes. All rights reserved.</p>
+    </footer>
+
+    <script src="script_project.js"></script>
+</body>
+</html>
